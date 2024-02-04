@@ -5,11 +5,12 @@ services:
   
     ports:
       - "8001:80"
-
-  nginx2:
+nginx9:
     image: nginx:latest
     ports:
-      - "8002:80"
+      - "8009:80"
+
+ 
 
 nginx5:
     image: nginx:latest
