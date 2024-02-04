@@ -10,7 +10,6 @@ nginx9:
     ports:
       - "8009:80"
 
- 
 
 nginx5:
     image: nginx:latest
@@ -18,7 +17,7 @@ nginx5:
       - "8005:80"
 
   nginx6:
-    image: nginx:latest
+
     ports:
       - "8006:80"
 
