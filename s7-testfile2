@@ -31,6 +31,6 @@ nginx9:
       - "8009:80"
 
   nginx10:
-    image: nginx:latest
+    image: nginx:late
     ports:
       - "8010:80"
