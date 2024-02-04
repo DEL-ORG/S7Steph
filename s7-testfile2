@@ -2,8 +2,7 @@ Test file2
 version: '3.8'
 
 services:
-  nginx1:
-    image: nginx:latest
+  
     ports:
       - "8001:80"
 
